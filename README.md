@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project focuses on predicting bike-sharing demand in urban cities using weather and temporal features. It uses linear regression, polynomial regression, and regularized regression models to understand how factors like temperature, humidity, time of day, and holidays influence bike rentals.
+This project focuses on predicting bike-sharing demand in urban cities using weather and temporal features using API. It uses linear regression, polynomial regression, and regularized regression models to understand how factors like temperature, humidity, time of day, and holidays influence bike rentals.
 
 A Shiny web application was built to visualize the results and offer an interactive experience for city planners and researchers.
 
@@ -11,6 +11,7 @@ A Shiny web application was built to visualize the results and offer an interact
 ## Key Features
 
 - **Web Scraping**: Real-time scraping of bike-sharing station or city weather data using rvest and httr.
+- **API** : Collecting real time weather data for required cities
 - **Regression Modeling**: Multiple models including:
     Linear regression with weather features
     Polynomial regression
@@ -29,6 +30,7 @@ A Shiny web application was built to visualize the results and offer an interact
 ## Tech Stack
 
 - **R** – Core data analysis and modeling language
+- **OpenWeather API** - Provides real-time and forecasted weather data
 - **Shiny** – Web application framework for R
 - **tidyverse** – For data manipulation (`dplyr`, `ggplot2`, `readr`, etc.)
 - **yardstick** – For model evaluation (RMSE, R-squared)
