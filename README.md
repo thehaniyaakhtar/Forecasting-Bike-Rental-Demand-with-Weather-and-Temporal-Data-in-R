@@ -54,6 +54,15 @@ A Shiny web application was built to visualize the results and offer an interact
 
 ---
 
+## Files used in Posit Cloud
+- `ui.R`	
+- `server.R`
+- `model_prediction.R`
+- `selected_cities.csv`	
+- `model.csv`
+
+---
+
 ## Screenshots
 ![Screenshot (343)](https://github.com/user-attachments/assets/2c0808d7-369d-48eb-8b98-bb93a1c0bbf3)
 
