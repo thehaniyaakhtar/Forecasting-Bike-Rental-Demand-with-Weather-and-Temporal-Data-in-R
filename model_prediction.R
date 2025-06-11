@@ -119,3 +119,4 @@ generate_city_weather_bike_data <- function() {
     mutate(BIKE_PREDICTION_LEVEL = calculate_bike_prediction_level(BIKE_PREDICTION)) %>%
     left_join(cities_df, by = "CITY_ASCII")
 }
+#eoc
