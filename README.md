@@ -38,7 +38,7 @@ A Shiny web application was built to visualize the results and offer an interact
 - **rsample** – For data splitting
 - **stringr** – For string cleaning and normalization
 - **DBI & RSQLite** – For SQL-based data handling
-- **Leaflet** – For geospatial visualizations (if applicable)
+- **Leaflet** – For geospatial visualizations 
 - **Posit Cloud (RStudio)** – Development environment and deployment
 
 ---
